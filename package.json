@@ -1,0 +1,30 @@
+{
+  "name": "koa-poxic",
+  "version": "0.0.1",
+  "description": "方便前端本地调试的代理服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/penouc/koa-poxic.git"
+  },
+  "keywords": [
+    "koa",
+    "proxy",
+    "mock-server",
+    "koa-router"
+  ],
+  "author": "penouc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penouc/koa-poxic/issues"
+  },
+  "homepage": "https://github.com/penouc/koa-poxic#readme",
+  "dependencies": {
+    "koa": "^1.2.1",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0"
+  }
+}
